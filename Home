@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button1 { background-color: #52AA82;
+	   color: white;
+	   border: none;
+	   width: 100px;
+	   height: 50px;
+	   cursor: pointer; }
+	   .button1:hover { background-color: green; } 
+.dasig-button1 { background-color: green;
+		 color: white;
+		 width: 100px;
+		 height: 30px;
+		 border: none;
+		 border-radius: 10px;
+		 cursor: pointer; }
+.luya-button1 { background-color: black;
+		color: white;
+		width: 100px;
+		height: 30px;
+	        border: none;
+		border-radius: 10px;
+		cursor: pointer; }
+</style>
+</head>
+<body>
+<center>
+<p id="john3:16"><strong>Verse of the Day!</strong></p>
+
+<button class="button1" type="button" onclick='document.getElementById("john3:16").innerHTML = "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.<br><strong>- John 3:16</strong></br>"'>Click Me!</button>
+
+<h2>pili igsoon kung asa ka ana nga bulb.</h2>
+<button class="dasig-button1" onclick="document.getElementById('myImage').src='light_bulb.gif'">DASIG</button>
+
+<img id="myImage" src="light_bulb.gif" style="width:100px">
+
+<button class="luya-button1" onclick="document.getElementById('myImage').src='off_bulb.gif'">LUYA</button>
+
+</center>
+</body>
+</html>
